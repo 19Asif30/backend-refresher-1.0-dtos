@@ -1,0 +1,10 @@
+/* eslint-disable prettier/prettier */
+import { DtoBase } from './dtoBase';
+
+class UserDto extends DtoBase {
+    firstname?: string;
+    lastname?: string;
+    email?: string;
+    phoneNumber?: string;
+    password?: string;
+}
