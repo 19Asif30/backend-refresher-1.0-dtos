@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { DtoBase } from './dtoBase';
 
-class UserDto extends DtoBase {
+export class UserDto extends DtoBase {
     firstname?: string;
     lastname?: string;
     email?: string;
